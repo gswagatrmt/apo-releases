@@ -1,9 +1,9 @@
 {
- "version": "7.8.66",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.66.zip",
- "sha256": "98326ddb20887b1b6f5c5e303ff52cb263626333fd3d747674b4bc0aa9af87fb",
+ "version": "7.8.67",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.67.zip",
+ "sha256": "50f11249dfa8fc0502158bd505ba6509eb322e1e23b25c157ad222012be4ead7",
  "requires": "5.8",
  "requires_php": "7.2",
  "published": "2026-10-28",
- "changelog": "<h4>Version 7.8.66</h4><h4>Improvements</h4><ul><li><strong>Smaller pages when icons embed pictures.</strong> On the Turbo++ and Maximum presets, pictures embedded inside inline SVG icons below the first screen are now served as cached image files instead of inside the page itself. On one test page this removed over a third of the HTML. Existing sites get this after re-applying the Turbo++ or Maximum preset.</li><li><strong>Font Awesome subsetting now works on more sites.</strong> A link or word that merely contains \"fa-\" no longer stops APO from serving the small Font Awesome subset font.</li></ul><h4>Fixes</h4><ul><li>Stylesheets for content that scripts build (for example carousels and sliders) are no longer treated as unused, so such content is never shown unstyled while the page loads.</li></ul>"
+ "changelog": "<h4>Version 7.8.67</h4><h4>Improvements</h4><ul><li>Two new optional test settings for measuring page speed before a change is made the default: one serves a small icon stylesheet inside the page, the other downloads Elementor's on-demand scripts in the background after the page has loaded. They only apply to test links and change nothing for visitors.</li></ul>"
 }
