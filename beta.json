@@ -1,9 +1,9 @@
 {
- "version": "7.8.67",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.67.zip",
- "sha256": "50f11249dfa8fc0502158bd505ba6509eb322e1e23b25c157ad222012be4ead7",
+ "version": "7.8.68",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.68.zip",
+ "sha256": "c5c9eb5d0473890a3a324fe3a85e7b14b97349ebc6313451b88068fbb3d8f369",
  "requires": "5.8",
  "requires_php": "7.2",
  "published": "2026-10-28",
- "changelog": "<h4>Version 7.8.67</h4><h4>Improvements</h4><ul><li>Two new optional test settings for measuring page speed before a change is made the default: one serves a small icon stylesheet inside the page, the other downloads Elementor's on-demand scripts in the background after the page has loaded. They only apply to test links and change nothing for visitors.</li></ul>"
+ "changelog": "<h4>Version 7.8.68</h4><h4>Fixes</h4><ul><li>On themes where the main image is preloaded with responsive sizes, phones could download the large desktop version of that image in addition to the right one. The viewport setting is now placed first in the page so only the right image is downloaded.</li><li>Removed two test options that measurement showed brought no improvement.</li></ul>"
 }
