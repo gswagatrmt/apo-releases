@@ -1,9 +1,9 @@
 {
- "version": "7.8.68",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.68.zip",
- "sha256": "c5c9eb5d0473890a3a324fe3a85e7b14b97349ebc6313451b88068fbb3d8f369",
+ "version": "7.8.69",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.69.zip",
+ "sha256": "ae1fd6db8c56227b3db80efb1f92cb531331b8b0ef6aba9c118f4e88afeefe22",
  "requires": "5.8",
  "requires_php": "7.2",
  "published": "2026-10-28",
- "changelog": "<h4>Version 7.8.68</h4><h4>Fixes</h4><ul><li>On themes where the main image is preloaded with responsive sizes, phones could download the large desktop version of that image in addition to the right one. The viewport setting is now placed first in the page so only the right image is downloaded.</li><li>Removed two test options that measurement showed brought no improvement.</li></ul>"
+ "changelog": "<h4>Version 7.8.69</h4><h4>Improvements</h4><ul><li><strong>Sharper, smaller main images.</strong> The resized copies APO makes of the page's main image are now created with a higher-quality resizing method: noticeably closer to the original and usually smaller in file size. Existing copies are rebuilt once automatically after the update.</li><li><strong>A better-fitting image size for high-resolution phones,</strong> so modern phones no longer download the desktop-size copy.</li></ul>"
 }
