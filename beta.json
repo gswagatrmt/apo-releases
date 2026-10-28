@@ -1,9 +1,9 @@
 {
- "version": "7.8.65",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.65.zip",
- "sha256": "c48a22c7883c49b75e7161ae889b2e1116f174dcded0b76f6b6d23684aa319bb",
+ "version": "7.8.66",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.66.zip",
+ "sha256": "98326ddb20887b1b6f5c5e303ff52cb263626333fd3d747674b4bc0aa9af87fb",
  "requires": "5.8",
  "requires_php": "7.2",
  "published": "2026-10-28",
- "changelog": "<h4>Version 7.8.65</h4><h4>Improvements</h4><ul><li><strong>No more layout jumps from carousels and sliders while the page loads.</strong> On the Turbo++ and Maximum presets, the theme's scripts now start only after the stylesheets they need are in place, so a slider or carousel at the top of the page can no longer appear unstyled for a moment and push the content down. Existing sites get this after re-applying the Turbo++ or Maximum preset.</li><li>Background stylesheets now switch on as soon as they have arrived, instead of sometimes waiting for the whole page to finish loading.</li><li><strong>New \"Page cache file\" card in the Advisor.</strong> It shows whether APO's fast cache file is active and, when it is not, explains why and offers to install it with one click (any existing file is kept as a backup). Files of active cache plugins are never touched.</li></ul><h4>Fixes</h4><ul><li>When another cache plugin is active, the message after applying a preset now names it.</li></ul>"
+ "changelog": "<h4>Version 7.8.66</h4><h4>Improvements</h4><ul><li><strong>Smaller pages when icons embed pictures.</strong> On the Turbo++ and Maximum presets, pictures embedded inside inline SVG icons below the first screen are now served as cached image files instead of inside the page itself. On one test page this removed over a third of the HTML. Existing sites get this after re-applying the Turbo++ or Maximum preset.</li><li><strong>Font Awesome subsetting now works on more sites.</strong> A link or word that merely contains \"fa-\" no longer stops APO from serving the small Font Awesome subset font.</li></ul><h4>Fixes</h4><ul><li>Stylesheets for content that scripts build (for example carousels and sliders) are no longer treated as unused, so such content is never shown unstyled while the page loads.</li></ul>"
 }
