@@ -1,9 +1,9 @@
 {
- "version": "7.8.70",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.70.zip",
- "sha256": "56645474dbd704c51299672312cd1a6594f39bbca0eac105f30a6ff283fe3249",
+ "version": "7.8.71",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.71.zip",
+ "sha256": "d34cb906b8d5696cf74a0baf047d01e01d49048f30284217624acb9a51f50f20",
  "requires": "5.8",
  "requires_php": "7.2",
  "published": "2026-10-29",
- "changelog": "<h4>Version 7.8.70</h4><h4>Improvements</h4><ul><li><strong>Smaller fonts:</strong> theme fonts that ship only as TTF or OTF files now also get a compressed WOFF copy, which browsers load first (about half the size); the original stays as a fallback and text looks exactly the same.</li><li>The extra main-image size for high-resolution phones now also fits the latest iPhones.</li><li>A new optional test setting serves phone-sized copies of large cover images that have no responsive sizes of their own.</li></ul>"
+ "changelog": "<h4>Version 7.8.71</h4><h4>Improvements</h4><ul><li>The compressed WOFF copy of TTF/OTF theme fonts is now created in the background instead of while a page is being built, so pages are no longer slowed down on servers where the copy cannot be saved. If a copy cannot be made, the log now says why.</li></ul>"
 }
