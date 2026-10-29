@@ -1,9 +1,9 @@
 {
- "version": "7.8.71",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.71.zip",
- "sha256": "d34cb906b8d5696cf74a0baf047d01e01d49048f30284217624acb9a51f50f20",
+ "version": "7.8.72",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.72.zip",
+ "sha256": "3fbba22689d6a2b6c5a66531def2a6ecc80d4280b972b16d497d8b9053de6a85",
  "requires": "5.8",
  "requires_php": "7.2",
  "published": "2026-10-29",
- "changelog": "<h4>Version 7.8.71</h4><h4>Improvements</h4><ul><li>The compressed WOFF copy of TTF/OTF theme fonts is now created in the background instead of while a page is being built, so pages are no longer slowed down on servers where the copy cannot be saved. If a copy cannot be made, the log now says why.</li></ul>"
+ "changelog": "<h4>Version 7.8.72</h4><h4>Improvements</h4><ul><li>A tap on a menu button made while the page is still loading now reliably opens the menu, even when the theme connects the button a moment later than usual.</li><li>Full-width cover images further down the page are now lazy-loaded, so the main image at the top loads first.</li></ul>"
 }
