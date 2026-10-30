@@ -1,9 +1,9 @@
 {
- "version": "7.8.73",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.73.zip",
- "sha256": "dcfde8a254166b993ebdc771ec2b5ac4ed6cac76b48d8badbaa930aa33eb233b",
+ "version": "7.8.74",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.74.zip",
+ "sha256": "ad2861a50de434af947b05b55210284104a6254d5be78964024d1157172fe842",
  "requires": "5.8",
  "requires_php": "7.2",
  "published": "2026-10-30",
- "changelog": "<h4>Version 7.8.73</h4><h4>Fixes</h4><ul><li>Menu buttons tapped while the page is still loading now open reliably on more themes, including ones that prepare their menu while the page loads.</li></ul>"
+ "changelog": "<h4>Version 7.8.74</h4><h4>Fixes</h4><ul><li>Menu buttons tapped while a slow page is still loading now open reliably.</li></ul>"
 }
