@@ -1,9 +1,9 @@
 {
- "version": "7.8.75",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.75.zip",
- "sha256": "b0cb1d693e8bb23a47027daa9f89f29f93f6f55a4864bbc224a62a1f79fbca23",
+ "version": "7.8.76",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.76.zip",
+ "sha256": "8c242881fb5c21f6bfcfc5c95a098a0b135ea1e20d3fd70a5c17b35a0ea95fdb",
  "requires": "5.8",
  "requires_php": "7.2",
  "published": "2026-10-31",
- "changelog": "<h4>Version 7.8.75</h4><h4>Improvements</h4><ul><li>Font preloading now targets only the font files a page actually displays, so the main image loads sooner on mobile.</li></ul>"
+ "changelog": "<h4>Version 7.8.76</h4><h4>Improvements</h4><ul><li>The main image of each page is now always preloaded once for phones and once for larger screens, at the site's own breakpoint, with no duplicates.</li><li>Entrance animations now play exactly as the site's own design intends.</li></ul><h4>Fixes</h4><ul><li>Fixed a background image that could disappear after the page finished loading on desktop when the section used a background motion effect.</li><li>Fixed slider pagination dots that could lose their styling.</li></ul>"
 }
