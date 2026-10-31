@@ -1,9 +1,9 @@
 {
- "version": "7.8.74",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.74.zip",
- "sha256": "ad2861a50de434af947b05b55210284104a6254d5be78964024d1157172fe842",
+ "version": "7.8.75",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.75.zip",
+ "sha256": "b0cb1d693e8bb23a47027daa9f89f29f93f6f55a4864bbc224a62a1f79fbca23",
  "requires": "5.8",
  "requires_php": "7.2",
- "published": "2026-10-30",
- "changelog": "<h4>Version 7.8.74</h4><h4>Fixes</h4><ul><li>Menu buttons tapped while a slow page is still loading now open reliably.</li></ul>"
+ "published": "2026-10-31",
+ "changelog": "<h4>Version 7.8.75</h4><h4>Improvements</h4><ul><li>Font preloading now targets only the font files a page actually displays, so the main image loads sooner on mobile.</li></ul>"
 }
