@@ -1,9 +1,9 @@
 {
- "version": "7.8.79",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.79.zip",
- "sha256": "a3d9c5ec637ba0ee4526479f16ddf423ebd9ab4eab0975ddc571f11eb00dded4",
+ "version": "7.8.80",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.80.zip",
+ "sha256": "dc13adb4d91a3b716c8c72e3f08296652128bb54f04e4d968faffcea1737fe9a",
  "requires": "5.8",
  "requires_php": "7.2",
  "published": "2026-11-01",
- "changelog": "<h4>Version 7.8.79</h4><h4>Improvements</h4><ul><li>New test switch for measuring the effect of preloading the main text font on visual load speed.</li></ul>"
+ "changelog": "<h4>Version 7.8.80</h4><h4>Improvements</h4><ul><li>The font preload test switch now also works on pages whose main content is an image.</li></ul>"
 }
