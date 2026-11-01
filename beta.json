@@ -1,9 +1,9 @@
 {
- "version": "7.8.77",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.77.zip",
- "sha256": "1a63c85f419c7fd55e33db3468265bc26c4337f7dccb6758c268464fb6ef7b75",
+ "version": "7.8.78",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.78.zip",
+ "sha256": "90fb0943d55ce1dd8cec6405e22479c0745a4dff9413fae1a5946ea458701837",
  "requires": "5.8",
  "requires_php": "7.2",
- "published": "2026-10-31",
- "changelog": "<h4>Version 7.8.77</h4><h4>Improvements</h4><ul><li>Pages whose main content is text again get the main-image preload for phones and larger screens.</li><li>Turbo++: page-builder CSS embedded in the page is trimmed to what the page uses, with the full stylesheet loaded right after, for a faster first paint.</li></ul>"
+ "published": "2026-11-01",
+ "changelog": "<h4>Version 7.8.78</h4><h4>Fixes</h4><ul><li>Turbo++ and Maximum: text keeps its size-matched fallback font while the full page stylesheet loads, so lines no longer re-wrap before the web font arrives.</li></ul><h4>Improvements</h4><ul><li>New test switches for measuring the effect of embedded stylesheets on visual load speed.</li></ul>"
 }
