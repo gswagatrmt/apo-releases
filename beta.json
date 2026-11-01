@@ -1,9 +1,9 @@
 {
- "version": "7.8.78",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.78.zip",
- "sha256": "90fb0943d55ce1dd8cec6405e22479c0745a4dff9413fae1a5946ea458701837",
+ "version": "7.8.79",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.79.zip",
+ "sha256": "a3d9c5ec637ba0ee4526479f16ddf423ebd9ab4eab0975ddc571f11eb00dded4",
  "requires": "5.8",
  "requires_php": "7.2",
  "published": "2026-11-01",
- "changelog": "<h4>Version 7.8.78</h4><h4>Fixes</h4><ul><li>Turbo++ and Maximum: text keeps its size-matched fallback font while the full page stylesheet loads, so lines no longer re-wrap before the web font arrives.</li></ul><h4>Improvements</h4><ul><li>New test switches for measuring the effect of embedded stylesheets on visual load speed.</li></ul>"
+ "changelog": "<h4>Version 7.8.79</h4><h4>Improvements</h4><ul><li>New test switch for measuring the effect of preloading the main text font on visual load speed.</li></ul>"
 }
