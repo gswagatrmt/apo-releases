@@ -1,9 +1,9 @@
 {
- "version": "7.8.80",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.80.zip",
- "sha256": "dc13adb4d91a3b716c8c72e3f08296652128bb54f04e4d968faffcea1737fe9a",
+ "version": "7.8.81",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.81.zip",
+ "sha256": "5e3cfff5039e7c5e9dbd81e8111c54403a9d10c44e2797d638a9e2ae239811fc",
  "requires": "5.8",
  "requires_php": "7.2",
  "published": "2026-11-01",
- "changelog": "<h4>Version 7.8.80</h4><h4>Improvements</h4><ul><li>The font preload test switch now also works on pages whose main content is an image.</li></ul>"
+ "changelog": "<h4>Version 7.8.81</h4><h4>Improvements</h4><ul><li>New test switch for measuring how much smaller pages arrive when a CDN passes the plugin's own compression through.</li></ul>"
 }
