@@ -1,9 +1,9 @@
 {
- "version": "7.8.81",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.81.zip",
- "sha256": "5e3cfff5039e7c5e9dbd81e8111c54403a9d10c44e2797d638a9e2ae239811fc",
+ "version": "7.8.82",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.82.zip",
+ "sha256": "d96173ebdbb05ef0024d5aa85b15715506afe8516cc4194314c32a9ee4161790",
  "requires": "5.8",
  "requires_php": "7.2",
  "published": "2026-11-01",
- "changelog": "<h4>Version 7.8.81</h4><h4>Improvements</h4><ul><li>New test switch for measuring how much smaller pages arrive when a CDN passes the plugin's own compression through.</li></ul>"
+ "changelog": "<h4>Version 7.8.82</h4><h4>Fixes</h4><ul><li>The hero image builder no longer reports a failed build when the image simply needs no smaller copy, and frees its lock straight away.</li><li>Requests for missing files (such as source maps fetched by testing tools) are no longer run through the optimizer.</li></ul>"
 }
