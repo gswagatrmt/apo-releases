@@ -1,9 +1,9 @@
 {
- "version": "7.8.83",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.83.zip",
- "sha256": "faf6453bd19200cf261fadcb199eefb6560a68f0effe55f3f1a0ae8f44687272",
+ "version": "7.8.85",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.85.zip",
+ "sha256": "d546675cd5ed9f54d2a76af8c4a198451841199caf86b18dda43fcd81920e573",
  "requires": "5.8",
  "requires_php": "7.2",
  "published": "2026-11-02",
- "changelog": "<h4>Version 7.8.83</h4><h4>Improvements</h4><ul><li>When jQuery has to load before the page can render, its download is no longer given low priority, so the page can start painting sooner on slow connections.</li></ul>"
+ "changelog": "<h4>Version 7.8.85</h4><h4>Improvements</h4><ul><li>Third-party scripts held until the visitor interacts (other than Google Tag Manager) now start as soon as the page has settled instead of after a fixed delay; a form's captcha loads as the visitor approaches the form (Turbo++ and Maximum).</li></ul>"
 }
