@@ -1,9 +1,9 @@
 {
- "version": "7.8.82",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.82.zip",
- "sha256": "d96173ebdbb05ef0024d5aa85b15715506afe8516cc4194314c32a9ee4161790",
+ "version": "7.8.83",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.83.zip",
+ "sha256": "faf6453bd19200cf261fadcb199eefb6560a68f0effe55f3f1a0ae8f44687272",
  "requires": "5.8",
  "requires_php": "7.2",
- "published": "2026-11-01",
- "changelog": "<h4>Version 7.8.82</h4><h4>Fixes</h4><ul><li>The hero image builder no longer reports a failed build when the image simply needs no smaller copy, and frees its lock straight away.</li><li>Requests for missing files (such as source maps fetched by testing tools) are no longer run through the optimizer.</li></ul>"
+ "published": "2026-11-02",
+ "changelog": "<h4>Version 7.8.83</h4><h4>Improvements</h4><ul><li>When jQuery has to load before the page can render, its download is no longer given low priority, so the page can start painting sooner on slow connections.</li></ul>"
 }
