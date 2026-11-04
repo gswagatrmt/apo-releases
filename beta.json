@@ -1,9 +1,9 @@
 {
- "version": "7.8.86",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.86.zip",
- "sha256": "33c16a2105b494771b4d9e7b5a468e389a44548cbc93fc7155187c252bf2ef53",
+ "version": "7.8.87",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.87.zip",
+ "sha256": "68e2c24d5cd7f79da1f40c56c69e645c30cbfe83f2ff64f16b37c7e6893d0f54",
  "requires": "5.8",
  "requires_php": "7.2",
- "published": "2026-11-03",
- "changelog": "<h4>Version 7.8.86</h4><h4>Fixes</h4><ul><li>A cached page that could not be refreshed in the background is now rebuilt on a visit, so improvements always reach visitors.</li></ul><h4>Improvements</h4><ul><li>LinkedIn and Facebook tracking scripts now start once the page has settled (or on the first interaction); Google Tag Manager and Microsoft Clarity keep their current timing (Turbo++ and Maximum).</li></ul>"
+ "published": "2026-11-04",
+ "changelog": "<h4>Version 7.8.87</h4><h4>Improvements</h4><ul><li>Two new diagnostic test modes for measuring font-loading layout shifts and long script tasks. Visitors are not affected.</li></ul>"
 }
