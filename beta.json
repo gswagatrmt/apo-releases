@@ -1,9 +1,9 @@
 {
- "version": "7.8.88",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.88.zip",
- "sha256": "a96632051750d6ce1b1f47d446aba5eafa64ee523b3a28c9fb55121c328f3399",
+ "version": "7.8.90",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.90.zip",
+ "sha256": "c49ea726e6eb7d6288b88c2bb9c1522508124105f92c07c3f3672b335b565712",
  "requires": "5.8",
  "requires_php": "7.2",
- "published": "2026-11-04",
- "changelog": "<h4>Version 7.8.88</h4><h4>Improvements</h4><ul><li>A new diagnostic test mode for measuring font-related layout shifts. Visitors are not affected.</li></ul>"
+ "published": "2026-11-05",
+ "changelog": "<h4>Version 7.8.90</h4><h4>Improved</h4><ul><li>The Full and Auto presets now include every default that Lab has proven on test sites (scripts and phone fonts after the first paint, lazy images at low priority, third-party scripts once the page is quiet). It can be switched off in Configure under \"Lab-proven defaults\".</li></ul>"
 }
