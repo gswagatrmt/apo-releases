@@ -1,9 +1,9 @@
 {
- "version": "7.8.91",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.91.zip",
- "sha256": "63a63ddf47577e92d105f6a24a9912ff7a46437aab08452a522997735f4f515f",
+ "version": "7.8.92",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.92.zip",
+ "sha256": "806c06624b9991c09bcdc033cde91045b2d573d8872b5d3f44ba7961d088ecfd",
  "requires": "5.8",
  "requires_php": "7.2",
  "published": "2026-11-05",
- "changelog": "<h4>Version 7.8.91</h4><h4>Improved</h4><ul><li>Configure now marks a setting as \"changed\" only when it really differs from the preset as applied to this site.</li><li>Notices after applying a preset use the current preset names.</li></ul>"
+ "changelog": "<h4>Version 7.8.92</h4><h4>Improved</h4><ul><li>\"Check again\" on the Updates screen now always looks for a new plugin release, and an available update is shown even when the WordPress.org update service does not answer.</li><li>A cached page served while it is being refreshed is now delivered without waiting for the refresh to start.</li><li>Applying Maximum or Auto now uses the plugin's fast page cache file automatically when the existing file was left behind by a plugin that is no longer active.</li></ul><h4>Fixed</h4><ul><li>If the plugin's generated file is removed, the page cache file stops serving pages and later moves itself aside, so another caching plugin can be used.</li></ul>"
 }
