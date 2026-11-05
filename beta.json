@@ -1,9 +1,9 @@
 {
- "version": "7.8.90",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.90.zip",
- "sha256": "c49ea726e6eb7d6288b88c2bb9c1522508124105f92c07c3f3672b335b565712",
+ "version": "7.8.91",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.91.zip",
+ "sha256": "63a63ddf47577e92d105f6a24a9912ff7a46437aab08452a522997735f4f515f",
  "requires": "5.8",
  "requires_php": "7.2",
  "published": "2026-11-05",
- "changelog": "<h4>Version 7.8.90</h4><h4>Improved</h4><ul><li>The Full and Auto presets now include every default that Lab has proven on test sites (scripts and phone fonts after the first paint, lazy images at low priority, third-party scripts once the page is quiet). It can be switched off in Configure under \"Lab-proven defaults\".</li></ul>"
+ "changelog": "<h4>Version 7.8.91</h4><h4>Improved</h4><ul><li>Configure now marks a setting as \"changed\" only when it really differs from the preset as applied to this site.</li><li>Notices after applying a preset use the current preset names.</li></ul>"
 }
