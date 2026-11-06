@@ -1,9 +1,9 @@
 {
- "version": "7.8.92",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.92.zip",
- "sha256": "806c06624b9991c09bcdc033cde91045b2d573d8872b5d3f44ba7961d088ecfd",
+ "version": "7.8.93",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.93.zip",
+ "sha256": "64a12ac2fb3683ff66b98f0dc4ebd2ccfc75b463d69a669d74d1e912dfeda4d4",
  "requires": "5.8",
  "requires_php": "7.2",
- "published": "2026-11-05",
- "changelog": "<h4>Version 7.8.92</h4><h4>Improved</h4><ul><li>\"Check again\" on the Updates screen now always looks for a new plugin release, and an available update is shown even when the WordPress.org update service does not answer.</li><li>A cached page served while it is being refreshed is now delivered without waiting for the refresh to start.</li><li>Applying Maximum or Auto now uses the plugin's fast page cache file automatically when the existing file was left behind by a plugin that is no longer active.</li></ul><h4>Fixed</h4><ul><li>If the plugin's generated file is removed, the page cache file stops serving pages and later moves itself aside, so another caching plugin can be used.</li></ul>"
+ "published": "2026-11-06",
+ "changelog": "<h4>Version 7.8.93</h4><h4>Improved</h4><ul><li>Lab and Maximum: on desktop, the main menu keeps a single row while its fonts load, so it no longer jumps from two rows to one. It switches itself off for a menu that genuinely needs two rows.</li><li>A page cached by the hosting provider while it was still being optimised is now replaced automatically once the optimisation finishes.</li></ul>"
 }
