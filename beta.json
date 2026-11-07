@@ -1,9 +1,9 @@
 {
- "version": "7.8.96",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.96.zip",
- "sha256": "49349fbd5213604e04848d2604f20f6c92df5bfd82884771ea7494fe97f18c12",
+ "version": "7.8.97",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.97.zip",
+ "sha256": "880a8ed77fd6786bd9553935b1d5d818551a4c7163d897e336fb739b59e88fa6",
  "requires": "5.8",
  "requires_php": "7.2",
  "published": "2026-11-07",
- "changelog": "<h4>Version 7.8.96</h4><h4>Improved</h4><ul><li>After a site change, the background stylesheet optimisation refreshes a cached page by marking it for a background rebuild instead of deleting it, so visitors keep getting the cached page.</li><li>That refresh now only happens when the optimisation actually produced something new, and never from test or tracking links.</li></ul>"
+ "changelog": "<h4>Version 7.8.97</h4><h4>Fixed</h4><ul><li>HTML minification keeps the line breaks in page text. Widgets that turn line breaks into new lines (for example review cards) now look exactly as they do without the plugin, including their \"Read more\" link.</li></ul>"
 }
