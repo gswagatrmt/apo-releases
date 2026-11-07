@@ -1,9 +1,9 @@
 {
- "version": "7.8.95",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.95.zip",
- "sha256": "eba9cbe88e20ac37d145c9a13ec971ce114b9ce37cb2eb9e9e052a4a6bd29365",
+ "version": "7.8.96",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.96.zip",
+ "sha256": "49349fbd5213604e04848d2604f20f6c92df5bfd82884771ea7494fe97f18c12",
  "requires": "5.8",
  "requires_php": "7.2",
- "published": "2026-11-06",
- "changelog": "<h4>Version 7.8.95</h4><h4>Improved</h4><ul><li>A cached page that has expired is now refreshed in the background right after it is delivered, so the next visitor no longer waits for a full page build.</li><li>Full and Auto: on desktop, the main menu keeps a single row while its fonts load.</li><li>Lab and Maximum: the matched stand-in fonts are registered in a way that a late font stylesheet can no longer reload them, reducing text movement while the page loads.</li></ul>"
+ "published": "2026-11-07",
+ "changelog": "<h4>Version 7.8.96</h4><h4>Improved</h4><ul><li>After a site change, the background stylesheet optimisation refreshes a cached page by marking it for a background rebuild instead of deleting it, so visitors keep getting the cached page.</li><li>That refresh now only happens when the optimisation actually produced something new, and never from test or tracking links.</li></ul>"
 }
