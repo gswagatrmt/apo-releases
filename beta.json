@@ -1,9 +1,9 @@
 {
- "version": "7.8.98",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.98.zip",
- "sha256": "7098ea5d44c2c1425cd9275941eac8503e46c77a45ec04801823c159806ab33c",
+ "version": "7.8.99",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.99.zip",
+ "sha256": "26e19fe61d5dd160d79e869d3b94ab7bac49de9e0b620fc7c06009a32eb481ad",
  "requires": "5.8",
  "requires_php": "7.2",
  "published": "2026-11-08",
- "changelog": "<h4>Version 7.8.98</h4><h4>Fixed</h4><ul><li>The page cache no longer stores pages that are marked private or that set a login, cart or comment cookie.</li><li>Updates are refused when the downloaded package is not the newer version that was announced.</li><li>Restoring original images no longer removes WebP/AVIF files created by another image plugin.</li><li>The \"Keep after uninstall\" choice is respected when a preset is applied.</li><li>Font Awesome styles inlined by the plugin follow file updates immediately.</li></ul>"
+ "changelog": "<h4>Version 7.8.99</h4><h4>Fixed</h4><ul><li>Third-party embeds placed inside the page content (forms, booking widgets) start with the page's other delayed scripts again, so they no longer grow above a visitor who has already scrolled past them. Embeds loaded at page level (chat bubbles) are unchanged.</li></ul>"
 }
