@@ -1,9 +1,9 @@
 {
- "version": "7.8.99",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.99.zip",
- "sha256": "26e19fe61d5dd160d79e869d3b94ab7bac49de9e0b620fc7c06009a32eb481ad",
+ "version": "7.9.0",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.9.0.zip",
+ "sha256": "3e94183aa30d25e69f830ec3c641414bdd487738a45bcd35dd1cb0d35122c556",
  "requires": "5.8",
  "requires_php": "7.2",
  "published": "2026-11-08",
- "changelog": "<h4>Version 7.8.99</h4><h4>Fixed</h4><ul><li>Third-party embeds placed inside the page content (forms, booking widgets) start with the page's other delayed scripts again, so they no longer grow above a visitor who has already scrolled past them. Embeds loaded at page level (chat bubbles) are unchanged.</li></ul>"
+ "changelog": "<h4>Version 7.9.0</h4><h4>Changed</h4><ul><li>Third-party embeds placed inside the page content start on the visitor's first interaction again, as in 7.8.98. The 7.8.99 change made them start with the page's other delayed scripts, which raised the main-thread work during page load.</li></ul>"
 }
