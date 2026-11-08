@@ -1,9 +1,9 @@
 {
- "version": "7.8.97",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.97.zip",
- "sha256": "880a8ed77fd6786bd9553935b1d5d818551a4c7163d897e336fb739b59e88fa6",
+ "version": "7.8.98",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.98.zip",
+ "sha256": "7098ea5d44c2c1425cd9275941eac8503e46c77a45ec04801823c159806ab33c",
  "requires": "5.8",
  "requires_php": "7.2",
- "published": "2026-11-07",
- "changelog": "<h4>Version 7.8.97</h4><h4>Fixed</h4><ul><li>HTML minification keeps the line breaks in page text. Widgets that turn line breaks into new lines (for example review cards) now look exactly as they do without the plugin, including their \"Read more\" link.</li></ul>"
+ "published": "2026-11-08",
+ "changelog": "<h4>Version 7.8.98</h4><h4>Fixed</h4><ul><li>The page cache no longer stores pages that are marked private or that set a login, cart or comment cookie.</li><li>Updates are refused when the downloaded package is not the newer version that was announced.</li><li>Restoring original images no longer removes WebP/AVIF files created by another image plugin.</li><li>The \"Keep after uninstall\" choice is respected when a preset is applied.</li><li>Font Awesome styles inlined by the plugin follow file updates immediately.</li></ul>"
 }
