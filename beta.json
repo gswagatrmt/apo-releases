@@ -1,9 +1,9 @@
 {
- "version": "7.9.3",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.9.3.zip",
- "sha256": "be3e082a880c85a6c13efbfe2e0b09b9cd8bf883e27371245d588d5040490d58",
+ "version": "7.9.4",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.9.4.zip",
+ "sha256": "54a5b816bdd45875f54d5503993d453c56da0765592e8c1d93673cc006fb7cee",
  "requires": "5.8",
  "requires_php": "7.2",
  "published": "2026-11-09",
- "changelog": "<h4>Version 7.9.3</h4><h4>Added</h4><ul><li>Internal test options for the page cache (captcha loading, stylesheet delivery). Off by default; no change for visitors.</li></ul>"
+ "changelog": "<h4>Version 7.9.4</h4><h4>Changed</h4><ul><li><strong>Lab and Maximum presets:</strong> on a page that shows a captcha box, the captcha now loads on the visitor's first touch, key press, scroll or mouse move, and the empty box keeps its height until it appears - less work while the page loads and no layout shift from the captcha. Takes effect when the preset is applied; it can be switched off in Configure.</li></ul><h4>Removed</h4><ul><li>The internal stylesheet-delivery test options added in 7.9.3.</li></ul>"
 }
