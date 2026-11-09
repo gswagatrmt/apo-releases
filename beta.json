@@ -1,9 +1,9 @@
 {
- "version": "7.9.1",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.9.1.zip",
- "sha256": "9b1eb6e5c3fc8b7431dcc701780bf9ec717dab028e05b44ee8b6c6fe9142d8ca",
+ "version": "7.9.2",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.9.2.zip",
+ "sha256": "f1b3773a6972bbb34b7d43c98da022aed431989f7ff5373f7b136fab898cfbb6",
  "requires": "5.8",
  "requires_php": "7.2",
  "published": "2026-11-09",
- "changelog": "<h4>Version 7.9.1</h4><h4>Fixed</h4><ul><li>After the hero image of a page is optimised in the background, the plugin now refreshes that page's cached copy instead of the path of the background task, so hosts that clear single pages no longer keep an outdated copy (and hosts that clear everything no longer do so needlessly).</li></ul>"
+ "changelog": "<h4>Version 7.9.2</h4><h4>Changed</h4><ul><li>Removed two internal test options that did not improve PageSpeed results. No change for visitors.</li></ul>"
 }
