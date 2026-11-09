@@ -1,9 +1,9 @@
 {
- "version": "7.9.2",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.9.2.zip",
- "sha256": "f1b3773a6972bbb34b7d43c98da022aed431989f7ff5373f7b136fab898cfbb6",
+ "version": "7.9.3",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.9.3.zip",
+ "sha256": "be3e082a880c85a6c13efbfe2e0b09b9cd8bf883e27371245d588d5040490d58",
  "requires": "5.8",
  "requires_php": "7.2",
  "published": "2026-11-09",
- "changelog": "<h4>Version 7.9.2</h4><h4>Changed</h4><ul><li>Removed two internal test options that did not improve PageSpeed results. No change for visitors.</li></ul>"
+ "changelog": "<h4>Version 7.9.3</h4><h4>Added</h4><ul><li>Internal test options for the page cache (captcha loading, stylesheet delivery). Off by default; no change for visitors.</li></ul>"
 }
