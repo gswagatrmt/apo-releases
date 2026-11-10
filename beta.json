@@ -1,9 +1,9 @@
 {
- "version": "7.9.5",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.9.5.zip",
- "sha256": "3ab2cfdea1da49c4b8d13440191d8460dcea697e32bd5eefec1bb80ab453b865",
+ "version": "7.9.6",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.9.6.zip",
+ "sha256": "5cbcc1d23e8f6c7191111a9a1c479dfa1b92e7a78f945c20b87a00ca40c05403",
  "requires": "5.8",
  "requires_php": "7.2",
  "published": "2026-11-10",
- "changelog": "<h4>Version 7.9.5</h4><h4>Changed</h4><ul><li><strong>Full and Auto presets:</strong> the captcha improvement from 7.9.4 (the captcha loads on the visitor's first touch, key press, scroll or mouse move, and its empty box keeps its height) now also applies to Full and Auto. It takes effect when the preset is applied, or at once with the \"Captcha on first interaction\" setting in Configure.</li></ul><h4>Added</h4><ul><li>An internal test option for the above-the-fold layout styles. Off by default; no change for visitors.</li></ul>"
+ "changelog": "<h4>Version 7.9.6</h4><h4>Changed</h4><ul><li><strong>Lab and Maximum presets:</strong> the above-the-fold layout styles now copy only rules that can apply to the first screen, with a larger budget, so a form or menu near the top of a page paints at its final size instead of jumping when the full stylesheets arrive. Takes effect when the preset is applied, or with the \"Strict above-the-fold styles\" setting in Configure.</li></ul>"
 }
