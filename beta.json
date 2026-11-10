@@ -1,9 +1,9 @@
 {
- "version": "7.9.4",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.9.4.zip",
- "sha256": "54a5b816bdd45875f54d5503993d453c56da0765592e8c1d93673cc006fb7cee",
+ "version": "7.9.5",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.9.5.zip",
+ "sha256": "3ab2cfdea1da49c4b8d13440191d8460dcea697e32bd5eefec1bb80ab453b865",
  "requires": "5.8",
  "requires_php": "7.2",
- "published": "2026-11-09",
- "changelog": "<h4>Version 7.9.4</h4><h4>Changed</h4><ul><li><strong>Lab and Maximum presets:</strong> on a page that shows a captcha box, the captcha now loads on the visitor's first touch, key press, scroll or mouse move, and the empty box keeps its height until it appears - less work while the page loads and no layout shift from the captcha. Takes effect when the preset is applied; it can be switched off in Configure.</li></ul><h4>Removed</h4><ul><li>The internal stylesheet-delivery test options added in 7.9.3.</li></ul>"
+ "published": "2026-11-10",
+ "changelog": "<h4>Version 7.9.5</h4><h4>Changed</h4><ul><li><strong>Full and Auto presets:</strong> the captcha improvement from 7.9.4 (the captcha loads on the visitor's first touch, key press, scroll or mouse move, and its empty box keeps its height) now also applies to Full and Auto. It takes effect when the preset is applied, or at once with the \"Captcha on first interaction\" setting in Configure.</li></ul><h4>Added</h4><ul><li>An internal test option for the above-the-fold layout styles. Off by default; no change for visitors.</li></ul>"
 }
