@@ -1,9 +1,9 @@
 {
- "version": "7.9.6",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.9.6.zip",
- "sha256": "5cbcc1d23e8f6c7191111a9a1c479dfa1b92e7a78f945c20b87a00ca40c05403",
+ "version": "7.9.7",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.9.7.zip",
+ "sha256": "2603522747f740588c8d4db1ce77e96ec0967b38cf9a2d447cade80b325c5d76",
  "requires": "5.8",
  "requires_php": "7.2",
- "published": "2026-11-10",
- "changelog": "<h4>Version 7.9.6</h4><h4>Changed</h4><ul><li><strong>Lab and Maximum presets:</strong> the above-the-fold layout styles now copy only rules that can apply to the first screen, with a larger budget, so a form or menu near the top of a page paints at its final size instead of jumping when the full stylesheets arrive. Takes effect when the preset is applied, or with the \"Strict above-the-fold styles\" setting in Configure.</li></ul>"
+ "published": "2026-11-11",
+ "changelog": "<h4>Version 7.9.7</h4><h4>Added</h4><ul><li>A diagnostic test mode for the above-the-fold layout styles (Lab and Maximum test URLs only). Visitors and settings are unchanged.</li></ul>"
 }
