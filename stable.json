@@ -1,9 +1,9 @@
 {
- "version": "7.8.60",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.8.60.zip",
- "sha256": "c26f1809fdc9bfa3fd7f78ea93aec8b12a3e0bb8bb7b6afbc37a08d78e248a2d",
+ "version": "7.9.9",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.9.9.zip",
+ "sha256": "8006bdadf353f6481ea13b3d7c833b549407a56217480821147ad90b48a5c4ae",
  "requires": "5.8",
  "requires_php": "7.2",
- "published": "2026-10-27",
- "changelog": "<h4>Version 7.8.60</h4><h4>New</h4><ul><li><strong>Cache Manager:</strong> revalidate or clear one page, one content type or the whole cache, from the admin bar on any page, the APO menu, or Settings \u2192 Performance \u2014 it stays available even after the main plugin is removed.</li><li><strong>Turn off / Turn on APO</strong> and <strong>Remove APO completely</strong>.</li></ul><h4>Fixes</h4><ul><li>When a page is trashed, unpublished or moved to a new address, the cached copy at its old address is removed, so search engines no longer see a page that should be gone.</li><li>Full Reset keeps the public files that pages still reference.</li></ul>"
+ "published": "2026-11-13",
+ "changelog": "<h4>Version 7.9.9</h4><h4>Improved</h4><ul><li>Full, Auto and Maximum: the above-the-fold layout styles now match the finished page, so forms and headers near the top of the page appear at their final size and the page shifts less while it loads. Turns on when the preset is applied again.</li></ul><h4>Changed</h4><ul><li>Maximum is now Full plus the APO page cache. The newest optimisations under measurement stay in Lab, which now also uses the APO page cache where your host does not cache pages.</li></ul>"
 }
