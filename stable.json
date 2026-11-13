@@ -1,9 +1,9 @@
 {
- "version": "7.9.9",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v7.9.9.zip",
- "sha256": "8006bdadf353f6481ea13b3d7c833b549407a56217480821147ad90b48a5c4ae",
+ "version": "8.0.0",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v8.0.0.zip",
+ "sha256": "1c45772a16da9ab9b322b0df7a3be8fb1f1b05f3f9f95b6ca3ebe5528a35fd1f",
  "requires": "5.8",
  "requires_php": "7.2",
  "published": "2026-11-13",
- "changelog": "<h4>Version 7.9.9</h4><h4>Improved</h4><ul><li>Full, Auto and Maximum: the above-the-fold layout styles now match the finished page, so forms and headers near the top of the page appear at their final size and the page shifts less while it loads. Turns on when the preset is applied again.</li></ul><h4>Changed</h4><ul><li>Maximum is now Full plus the APO page cache. The newest optimisations under measurement stay in Lab, which now also uses the APO page cache where your host does not cache pages.</li></ul>"
+ "changelog": "<h4>Version 8.0.0</h4><h4>Fixed</h4><ul><li>Configure: saving now changes only the settings you edited. Saving without changes keeps the applied preset exactly, and no font or background preload is ticked unless you chose it. The confirmation lists the settings that changed.</li></ul>"
 }
