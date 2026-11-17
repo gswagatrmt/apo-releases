@@ -1,9 +1,9 @@
 {
- "version": "8.0.0",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v8.0.0.zip",
- "sha256": "1c45772a16da9ab9b322b0df7a3be8fb1f1b05f3f9f95b6ca3ebe5528a35fd1f",
+ "version": "8.0.1",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v8.0.1.zip",
+ "sha256": "8bfb59c12c11b98db4b9659e812910ff692d48e5900538f1ed172c9c69c3d2f7",
  "requires": "5.8",
  "requires_php": "7.2",
- "published": "2026-11-13",
- "changelog": "<h4>Version 8.0.0</h4><h4>Fixed</h4><ul><li>Configure: saving now changes only the settings you edited. Saving without changes keeps the applied preset exactly, and no font or background preload is ticked unless you chose it. The confirmation lists the settings that changed.</li></ul>"
+ "published": "2026-11-17",
+ "changelog": "<h4>Version 8.0.1</h4><h4>Improved</h4><ul><li>Settings screens use the full width of large screens and keep cards tightly arranged without gaps; tighter spacing on phones.</li></ul>"
 }
