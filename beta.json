@@ -1,9 +1,9 @@
 {
- "version": "8.0.2",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v8.0.2.zip",
- "sha256": "138fb831d06e8f048de5cbd8c4176a819a1656172d6316946df9dc3d61923ac2",
+ "version": "8.0.3",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v8.0.3.zip",
+ "sha256": "258278bd74e891013aae944105ca8c8ee420c0ca105ef5245433b89c8974c80e",
  "requires": "5.8",
  "requires_php": "7.2",
  "published": "2026-11-18",
- "changelog": "<h4>Version 8.0.2</h4><h4>Fixed</h4><ul><li>Lab preset: a font measurement that could stay switched off now runs until it has finished.</li></ul>"
+ "changelog": "<h4>Version 8.0.3</h4><h4>Improved</h4><ul><li>Less server work on pages that are not cached yet: several optimisation steps now do the same job faster. The page visitors receive is unchanged.</li></ul>"
 }
