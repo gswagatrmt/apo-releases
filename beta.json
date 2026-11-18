@@ -1,9 +1,9 @@
 {
- "version": "8.0.1",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v8.0.1.zip",
- "sha256": "8bfb59c12c11b98db4b9659e812910ff692d48e5900538f1ed172c9c69c3d2f7",
+ "version": "8.0.2",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v8.0.2.zip",
+ "sha256": "138fb831d06e8f048de5cbd8c4176a819a1656172d6316946df9dc3d61923ac2",
  "requires": "5.8",
  "requires_php": "7.2",
- "published": "2026-11-17",
- "changelog": "<h4>Version 8.0.1</h4><h4>Improved</h4><ul><li>Settings screens use the full width of large screens and keep cards tightly arranged without gaps; tighter spacing on phones.</li></ul>"
+ "published": "2026-11-18",
+ "changelog": "<h4>Version 8.0.2</h4><h4>Fixed</h4><ul><li>Lab preset: a font measurement that could stay switched off now runs until it has finished.</li></ul>"
 }
