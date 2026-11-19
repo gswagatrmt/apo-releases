@@ -1,9 +1,9 @@
 {
- "version": "8.0.4",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v8.0.4.zip",
- "sha256": "3325825c1b8e2f7f7bf7a442dc2060beb151320659911018400d00adf64e07cf",
+ "version": "8.0.5",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v8.0.5.zip",
+ "sha256": "02def6090f65dcb1257d07ef98f77f2b1d0efe9d508621496a1041a51fe68c12",
  "requires": "5.8",
  "requires_php": "7.2",
- "published": "2026-11-18",
- "changelog": "<h4>Version 8.0.4</h4><h4>Improved</h4><ul><li>Less server work on pages that are not cached yet, continued: three more optimisation steps skip work that cannot change the page. The page visitors receive is unchanged.</li></ul>"
+ "published": "2026-11-19",
+ "changelog": "<h4>Version 8.0.5</h4><h4>Improved</h4><ul><li>Images that cannot be made smaller as AVIF or WebP (small icons, for example) are now remembered, so pages no longer retry converting them every day.</li><li>Lab: a visitor's page spends at most 0.8 seconds converting new images; the rest are converted on the next uncached view.</li></ul>"
 }
