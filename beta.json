@@ -1,9 +1,9 @@
 {
- "version": "8.0.6",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v8.0.6.zip",
- "sha256": "09252078a886255b8194854402817dfae4e82be3bf83c31e70ff2a5381d944e3",
+ "version": "8.0.7",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v8.0.7.zip",
+ "sha256": "b0aa989ab98ccbf6a997b16e48d916465c0d61dc6d7335b15db51514bf9c348c",
  "requires": "5.8",
  "requires_php": "7.2",
  "published": "2026-11-20",
- "changelog": "<h4>Version 8.0.6</h4><h4>Fixed</h4><ul><li>On pages whose main image adapts to the screen size, phones now preload the same image size they display, instead of downloading a larger copy as well.</li></ul>"
+ "changelog": "<h4>Version 8.0.7</h4><h4>Fixed</h4><ul><li>When a page section's background image is preloaded, the preload now requests the same file the page displays, instead of a converted copy the page never uses.</li></ul>"
 }
