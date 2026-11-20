@@ -1,9 +1,9 @@
 {
- "version": "8.0.5",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v8.0.5.zip",
- "sha256": "02def6090f65dcb1257d07ef98f77f2b1d0efe9d508621496a1041a51fe68c12",
+ "version": "8.0.6",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v8.0.6.zip",
+ "sha256": "09252078a886255b8194854402817dfae4e82be3bf83c31e70ff2a5381d944e3",
  "requires": "5.8",
  "requires_php": "7.2",
- "published": "2026-11-19",
- "changelog": "<h4>Version 8.0.5</h4><h4>Improved</h4><ul><li>Images that cannot be made smaller as AVIF or WebP (small icons, for example) are now remembered, so pages no longer retry converting them every day.</li><li>Lab: a visitor's page spends at most 0.8 seconds converting new images; the rest are converted on the next uncached view.</li></ul>"
+ "published": "2026-11-20",
+ "changelog": "<h4>Version 8.0.6</h4><h4>Fixed</h4><ul><li>On pages whose main image adapts to the screen size, phones now preload the same image size they display, instead of downloading a larger copy as well.</li></ul>"
 }
