@@ -1,9 +1,9 @@
 {
- "version": "8.0.7",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v8.0.7.zip",
- "sha256": "b0aa989ab98ccbf6a997b16e48d916465c0d61dc6d7335b15db51514bf9c348c",
+ "version": "8.0.8",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v8.0.8.zip",
+ "sha256": "3ec6a3d9691f8b0df2594fdad4103f895fc6f45f51413a1da36b2e6c785caf31",
  "requires": "5.8",
  "requires_php": "7.2",
- "published": "2026-11-20",
- "changelog": "<h4>Version 8.0.7</h4><h4>Fixed</h4><ul><li>When a page section's background image is preloaded, the preload now requests the same file the page displays, instead of a converted copy the page never uses.</li></ul>"
+ "published": "2026-11-21",
+ "changelog": "<h4>Version 8.0.8</h4><h4>Improved</h4><ul><li>Each page now preloads exactly one main image for phones and one for desktops. Images that are hidden at first paint, such as a logo inside a closed mobile menu, are no longer preloaded.</li></ul>"
 }
