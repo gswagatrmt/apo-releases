@@ -1,9 +1,9 @@
 {
- "version": "8.0.8",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v8.0.8.zip",
- "sha256": "3ec6a3d9691f8b0df2594fdad4103f895fc6f45f51413a1da36b2e6c785caf31",
+ "version": "8.0.9",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v8.0.9.zip",
+ "sha256": "4e2aba2ae50bcede69c2da5782a6cddc2a4f60d7ab25cf19b1e98704153f5272",
  "requires": "5.8",
  "requires_php": "7.2",
  "published": "2026-11-21",
- "changelog": "<h4>Version 8.0.8</h4><h4>Improved</h4><ul><li>Each page now preloads exactly one main image for phones and one for desktops. Images that are hidden at first paint, such as a logo inside a closed mobile menu, are no longer preloaded.</li></ul>"
+ "changelog": "<h4>Version 8.0.9</h4><h4>Improved</h4><ul><li>When APO's page cache is on, its fast cache file is now put in place automatically, so cached pages are served before WordPress starts without clicking \"Use APO's fast cache file\". A cache file that belongs to another active cache plugin or to the host is never replaced.</li></ul><h4>Fixed</h4><ul><li>Lab preset: a collapsible \"read more\" text box now shows at its collapsed height from the first frame, so the content below it no longer moves when the page finishes loading.</li></ul>"
 }
