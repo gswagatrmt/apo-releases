@@ -1,9 +1,9 @@
 {
- "version": "8.1.0",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v8.1.0.zip",
- "sha256": "9bde6c04c18134602d62798910c2aca3fbd0ac91db5465382fd5465341da0fef",
+ "version": "8.1.1",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v8.1.1.zip",
+ "sha256": "5ca6eaf24d6a401258862d4619353a89f2e9f2dae071b384e564998894dd9a03",
  "requires": "5.8",
  "requires_php": "7.2",
  "published": "2026-11-22",
- "changelog": "<h4>Version 8.1.0</h4><h4>Fixed</h4><ul><li>A main image that APO learned from an earlier visit is now checked again: if it is far down the page, or was copied from another site (for example a test copy of a live site), it is discarded and the page measures its main image again. This stops a wrong image being preloaded for good.</li><li>An image preload that points at another domain is pointed at this site when this site serves the same image, so a copied site no longer downloads its images from the original site.</li></ul><h4>Improved</h4><ul><li>When APO leaves an existing cache file alone, the log now says why.</li><li>With the site's diagnostics key, the recent APO log can be read from a browser for support, without logging in. It is never cached or indexed.</li></ul>"
+ "changelog": "<h4>Version 8.1.1</h4><h4>Fixed</h4><ul><li>The check of a main image learned on an earlier visit now also reads the page's own stylesheets, so an image used only as a section background in a stylesheet is checked too. A main image learned far down the page is discarded and measured again.</li></ul>"
 }
