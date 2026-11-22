@@ -1,9 +1,9 @@
 {
- "version": "8.0.9",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v8.0.9.zip",
- "sha256": "4e2aba2ae50bcede69c2da5782a6cddc2a4f60d7ab25cf19b1e98704153f5272",
+ "version": "8.1.0",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v8.1.0.zip",
+ "sha256": "9bde6c04c18134602d62798910c2aca3fbd0ac91db5465382fd5465341da0fef",
  "requires": "5.8",
  "requires_php": "7.2",
- "published": "2026-11-21",
- "changelog": "<h4>Version 8.0.9</h4><h4>Improved</h4><ul><li>When APO's page cache is on, its fast cache file is now put in place automatically, so cached pages are served before WordPress starts without clicking \"Use APO's fast cache file\". A cache file that belongs to another active cache plugin or to the host is never replaced.</li></ul><h4>Fixed</h4><ul><li>Lab preset: a collapsible \"read more\" text box now shows at its collapsed height from the first frame, so the content below it no longer moves when the page finishes loading.</li></ul>"
+ "published": "2026-11-22",
+ "changelog": "<h4>Version 8.1.0</h4><h4>Fixed</h4><ul><li>A main image that APO learned from an earlier visit is now checked again: if it is far down the page, or was copied from another site (for example a test copy of a live site), it is discarded and the page measures its main image again. This stops a wrong image being preloaded for good.</li><li>An image preload that points at another domain is pointed at this site when this site serves the same image, so a copied site no longer downloads its images from the original site.</li></ul><h4>Improved</h4><ul><li>When APO leaves an existing cache file alone, the log now says why.</li><li>With the site's diagnostics key, the recent APO log can be read from a browser for support, without logging in. It is never cached or indexed.</li></ul>"
 }
