@@ -1,9 +1,9 @@
 {
- "version": "8.1.4",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v8.1.4.zip",
- "sha256": "87bd28b1ac9311cef6b292c7463b9576ecbb19a65ab9ac11f6d54bf8f7a28dc4",
+ "version": "8.1.5",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v8.1.5.zip",
+ "sha256": "a2ecf9d1b906571dcd086a82c45b4b2d346d83d105515c2ed78e622bb1c2f4dc",
  "requires": "5.8",
  "requires_php": "7.2",
  "published": "2026-11-23",
- "changelog": "<h4>Version 8.1.4</h4><h4>Improved</h4><ul><li>Lab preset: section backgrounds below the first screen now load as they come near the screen instead of all at once after the page loads, so the first screen finishes sooner on phones.</li></ul>"
+ "changelog": "<h4>Version 8.1.5</h4><h4>Improved</h4><ul><li>Full, Auto and Maximum presets: section backgrounds below the first screen now load as they come near the screen instead of all at once after the page loads (as in Lab since 8.1.4).</li></ul>"
 }
