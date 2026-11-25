@@ -1,9 +1,9 @@
 {
- "version": "8.1.6",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v8.1.6.zip",
- "sha256": "89df67190942c4287318990404b69de0401f53915d9d6b87a62e71fc82a2166c",
+ "version": "8.2.0",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v8.2.0.zip",
+ "sha256": "72e03b217f38bee65c335e9580429f4e644ca24d7538597d7b28a6adecba0893",
  "requires": "5.8",
  "requires_php": "7.2",
- "published": "2026-11-24",
- "changelog": "<h4>Version 8.1.6</h4><h4>Fixed</h4><ul><li>The fast page cache file now replaces the placeholder Seraphinite Accelerator leaves behind when it is deactivated, so cached pages are served before WordPress starts again. An active Seraphinite Accelerator is never touched.</li><li>Enable Page Cache in the admin bar's Cache Settings menu now also puts the fast page cache file in place.</li></ul>"
+ "published": "2026-11-25",
+ "changelog": "<h4>Version 8.2.0</h4><h4>Fixed</h4><ul><li>Cached pages now keep the response headers the page sends, such as security headers and search-engine directives.</li><li>After applying settings or clearing the cache, pages already in the cache keep being served while they are rebuilt, instead of being removed again a minute later.</li><li>The diagnostic link that shows a page without optimisation tells search engines not to index it.</li><li>A cache purge is only reported when the host has a cache that can be purged.</li></ul>"
 }
