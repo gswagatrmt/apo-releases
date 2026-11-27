@@ -1,9 +1,9 @@
 {
- "version": "8.2.1",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v8.2.1.zip",
- "sha256": "a3717f8630a7616f1872dc6dbc030ad1cc193f8cbb461c23efa7db515761fa9c",
+ "version": "8.2.5",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v8.2.5.zip",
+ "sha256": "9921fec8af3f5ce68fba58c49fd358ba32b6c31a13b5f629f120f947d2f33c70",
  "requires": "5.8",
  "requires_php": "7.2",
- "published": "2026-11-25",
- "changelog": "<h4>Version 8.2.1</h4><h4>Fixed</h4><ul><li>Read-more boxes keep their collapsed height from the first moment the page appears in every preset that previously lacked it, so the content below no longer jumps when the box closes.</li></ul>"
+ "published": "2026-11-27",
+ "changelog": "<h4>Version 8.2.5</h4><h4>New</h4><ul><li>Images tab: \"Recompress original JPEGs\" makes your original JPEG files smaller in place - same name, same address, same size on screen - only when the difference cannot be seen. Originals are backed up and can be restored in one click.</li></ul><h4>Fixed</h4><ul><li>\"Recompress in place\" for a single image now applies the same quality checks to JPEGs.</li><li>The browser-side compressor no longer reports \"no images\" on sites where it can work, and steps aside where the server already makes AVIF copies.</li><li>Spacing above Save Settings on the Images tab.</li></ul>"
 }
