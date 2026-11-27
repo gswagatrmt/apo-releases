@@ -1,9 +1,9 @@
 {
- "version": "8.2.5",
- "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v8.2.5.zip",
- "sha256": "9921fec8af3f5ce68fba58c49fd358ba32b6c31a13b5f629f120f947d2f33c70",
+ "version": "8.2.8",
+ "package": "https://raw.githubusercontent.com/gswagatrmt/apo-releases/main/zips/auto-performance-optimizer-v8.2.8.zip",
+ "sha256": "46a80a728de7c808d7ab09a41a11f797c99b028ef80942c22152a4b18d6c5a8c",
  "requires": "5.8",
  "requires_php": "7.2",
  "published": "2026-11-27",
- "changelog": "<h4>Version 8.2.5</h4><h4>New</h4><ul><li>Images tab: \"Recompress original JPEGs\" makes your original JPEG files smaller in place - same name, same address, same size on screen - only when the difference cannot be seen. Originals are backed up and can be restored in one click.</li></ul><h4>Fixed</h4><ul><li>\"Recompress in place\" for a single image now applies the same quality checks to JPEGs.</li><li>The browser-side compressor no longer reports \"no images\" on sites where it can work, and steps aside where the server already makes AVIF copies.</li><li>Spacing above Save Settings on the Images tab.</li></ul>"
+ "changelog": "<h4>Version 8.2.8</h4><h4>Improved</h4><ul><li>A cleaner admin look: a more legible typeface (Atkinson Hyperlegible, included with the plugin - nothing is loaded from other sites), calmer colours and flat cards; a card that can remove or reset something is marked on its left edge. The left menu is unchanged.</li></ul><h4>Also in this update (8.2.6 and 8.2.7)</h4><ul><li>Images tab: \"Recompress originals\" now also makes original WebP files smaller in place - same name and address, only when the difference cannot be seen, with a backup and one-click restore. Choose JPEG and / or WebP and a minimum file size; smaller files are skipped without being opened.</li><li>\"Recompress in place\" for a single WebP address now applies the same quality checks, and leaves animated WebP files alone.</li><li>The before / after list shows a single result at its normal size and very small files in bytes.</li><li>Images tab: after any compression you can check the result - four sample images with a before/after slider (the two biggest savings and two at random), and a full per-file list with search, filters and a CSV download.</li><li>The JPEG recompression summary now counts the images it left alone.</li></ul>"
 }
